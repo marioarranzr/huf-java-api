@@ -42,8 +42,8 @@ public class Draft {
     public String corrective_inv_series;
     public String corrective_reason_code;
     public String corrective_reason_method;
-    public Date corrective_start_date;
-    public Date corrective_end_date;
+    public String corrective_start_date;
+    public String corrective_end_date;
     private String preview;
     private String is_valid;
     private Map<String, String> invoice_errors;
@@ -296,19 +296,19 @@ public class Draft {
         this.dir3_code_4 = dir3_code_4;
     }
 
-	public Date getCorrective_start_date() {
+	public String getCorrective_start_date() {
 		return corrective_start_date;
 	}
 
-	public void setCorrective_start_date(Date corrective_start_date) {
+	public void setCorrective_start_date(String corrective_start_date) {
 		this.corrective_start_date = corrective_start_date;
 	}
 
-	public Date getCorrective_end_date() {
+	public String getCorrective_end_date() {
 		return corrective_end_date;
 	}
 
-	public void setCorrective_end_date(Date corrective_end_date) {
+	public void setCorrective_end_date(String corrective_end_date) {
 		this.corrective_end_date = corrective_end_date;
 	}
     
